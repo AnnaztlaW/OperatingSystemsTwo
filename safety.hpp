@@ -1,7 +1,7 @@
 // Anna Waltz
 
 // the check for safety for the banker algorithim
-// also includes details on nuber of processes and resources
+// also includes details on number of processes and resources
 
 #ifndef SAFETY_HPP_
 #define SAFETY_HPP_
@@ -55,7 +55,7 @@ bool checkSafe(int processes[], int available[], int max[][numRe], int allocated
             }
         }
   
-        if (!found) { //no possible sequences
+        if (!found) { //no possible next process to run
             cout << "The system is not in a safe state." << endl;
             return false;
         }

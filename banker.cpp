@@ -1,4 +1,6 @@
 // Anna Waltz
+// Operating Systems assignment primary file
+
 #include "safety.hpp"
 
 int main() {

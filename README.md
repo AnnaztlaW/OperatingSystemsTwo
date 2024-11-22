@@ -43,6 +43,6 @@ Available: 3 3 2
 The system is in safe state. Safe sequence is: 1 3 4 0 2 
 ```
 
-# Side Notes
+### Side Notes
 The provided table can be manipluated in addition to the number of processes and resources to test the safety of the system. <br />
 Modifications to the matrix table need to follow the same structure as the table above and any changes in the number of resources or processes need to be changed in lines 17 and 18 of the safety.hpp file.
