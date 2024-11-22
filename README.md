@@ -15,7 +15,7 @@ Considering a system with five processes P0 through P4 and three resources of ty
 Implement the Banker’s algorithm to answer the following questions： <br />
 Is the system in a safe state? If Yes, then what is the safe sequence? <br />
 
-
+The following program modifies the given table to a text file titled matrix.txt, the format of the file follows the format of the table. The bankers algorithim is primarily implemented in the safety.cpp file and called in the banker.cpp file. 
 ## Compilation
 To compile the program two steps are nessesary. Clone the respository and run the following:
 ```bash
@@ -44,5 +44,5 @@ The system is in safe state. Safe sequence is: 1 3 4 0 2
 ```
 
 ### Side Notes
-The provided table can be manipluated in addition to the number of processes and resources to test the safety of the system. <br />
+The provided table can be manipluated in addition to the number of processes and resources to test the safety of a different system. <br />
 Modifications to the matrix table need to follow the same structure as the table above and any changes in the number of resources or processes need to be changed in lines 17 and 18 of the safety.hpp file.
